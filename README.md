@@ -6,19 +6,19 @@
 |系统|macOS Catalina 10.15.7|
 |CPU|Intel Core i5-6600t @ 2.7GHz 4核4线程|
 |显卡|Intel HD Graphics 530 1536 MB|
-|内存|金士顿 DDR4 2133MHz 8GB|
-|硬盘|光威 GLOWAY STK1.5TS3-S7（1.5Tb/固态硬盘）|
-|网卡|Intel Dual Band Wireless-AC 7265|
+|内存|金士顿 DDR4 2133MHz 16GB|
+|硬盘|西数 SN550 256GB（NVMe SSD）|
+|网卡|BCM943224PCIEBT2|
 |声卡|Realtek ALC221|
 |SMBIOS|Mac mini (2018)| 
 |BIOS|N23 Ver.02.49 07/12/2020| 
 |引导|OpenCore 0.62| 
 
 ## 实现功能
-- ✅ CPU 睿频变频
+- ✅ CPU 睿频变频正常
 - ✅ 核显 HD530 显存 1536MB
-- ✅ 硬件加速 4K HEVC/H.265解码
-- ✅ USB2.0/USB3.0
+- ✅ 硬件加速 4K H.265解码
+- ✅ 定制USB2.0/USB3.0
 - ✅ 声卡 内建 layout-id 为 11
 - ✅ 节能五项
 - ✅ 睡眠唤醒
@@ -28,14 +28,13 @@
 
 ## 存在问题
 - ❌ 麦克风不工作
-- ❌ 睡眠黑屏可唤醒
 
 ## BIOS设置
 只需要注意这几项即可，其他按自己爱好设置即可。
 - Secure Boot 关闭
 - Fast Boot 关闭
 - VTd 关闭
-- 显存大小 512M
+- 显存大小 >64M
 
 
 ## 截图预览
